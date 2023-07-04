@@ -8,7 +8,6 @@ import Calender from "../icons/Calender"
 
 const CarsDetails = (props) => {
     const { id, name, model, year, location, image, price, distance, description } = props
-    console.log(id);
     return (
         <div className={styles.container} >
             <img src={image} className={styles.image} />

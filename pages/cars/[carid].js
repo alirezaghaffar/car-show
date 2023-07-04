@@ -4,12 +4,13 @@ import CarDetails from "../../components/templates/CarsDetails"
 
 const CarDetail = () => {
     const router = useRouter();
-    const {carid} = router.query;
-    const carDetails = carsData[carid-1]
+    const { carid } = router.query;
+    const carDetails = carsData[carid - 1]
     return (
-
-        <CarDetails {...carDetails} />
-
+        <>
+            
+            <CarDetails {...carDetails} />
+        </>
     );
 };
 
