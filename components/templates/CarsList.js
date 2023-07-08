@@ -5,8 +5,6 @@ import Card from "../module/Card";
 
 const CarsList = ({data}) => {
     const router = useRouter()
-    console.log(data);
-
     const backHandler =()=>router.back();
     return (
         <div className={styles.container} >
