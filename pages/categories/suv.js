@@ -1,5 +1,5 @@
 import CarsList from "../../components/templates/CarsList";
-import carsData from "../../data/carsData";
+import carsData from "../../data/carsdata";
 
 const Suv = () => {
     const suvCars = carsData.filter((car)=>car.category==="suv")

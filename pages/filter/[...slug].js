@@ -1,5 +1,5 @@
 import { useRouter } from 'next/router';
-import carsData from '../../data/carsData';
+import carsData from '../../data/carsdata';
 import CarsList from '../../components/templates/CarsList';
 
 const FilteredCars = () => {
