@@ -14,7 +14,7 @@ const Layout = ({children}) => {
             </header>
                 <div className={styles.container}>{children}</div>
             <footer className={styles.footer}>
-                <a href='https://github.com/ali-reza-gh' target="_blank">AlirezaGhaffar</a>
+                <a href='https://github.com/ali-reza-gh' target="_blank" rel='noreferrer'>AlirezaGhaffar</a>
                  Next.js project | Otomal Project &copy; 
                 </footer>
         </>
